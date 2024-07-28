@@ -1,0 +1,266 @@
+/* BUTTON  */
+@import "primeicons/primeicons.css";
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+section{
+  color: #ffffff;
+}
+
+.cont{
+  height: 48rem;
+}
+
+.button {
+  font-size: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  background: #709BEF;
+  color: #ffffff;
+  min-width: 8rem;
+  padding: 1.8rem 2.4rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.icon {
+  max-width: 100%;
+  display: block;
+  margin-left: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.4rem 1rem;
+  width: 10%;
+}
+
+.credential{
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+.button:hover,
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #709BEF, 0 0 0 4px #709BEF;
+}
+
+.grid {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 25px;
+  justify-content: center;
+}
+
+.gridOne{
+  max-width: 100%;
+  color: #ffffff;
+  background: #709BEF;
+  height: 45vh;
+  border-radius: 0.6rem;
+}
+
+
+.contAdmin{
+  height: 48rem;
+}
+
+.buttonAdmin {
+  font-size: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  background: #EFA570;
+  color: #ffffff;
+  min-width: 8rem;
+  padding: 1.8rem 2.4rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.iconAdmin {
+  max-width: 100%;
+  display: block;
+  margin-left: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.profileAdmin{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.4rem 1rem;
+  width: 10%;
+}
+
+.credentialAdmin{
+  text-align: center;
+  margin-top: 0.4rem;
+}
+
+.buttonAdmin:hover,
+.buttonAdmin:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #EFA570, 0 0 0 4px #EFA570;
+}
+
+.gridAdmin {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 25px;
+  justify-content: center;
+}
+
+.gridOneAdmin{
+  max-width: 100%;
+  color: #ffffff;
+  background: #EFA570;
+  height: 45vh;
+  border-radius: 0.6rem;
+}
+
+
+
+
+@media (max-width: 800px) {
+  .button {
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    background: #709BEF;
+    color: #ffffff;
+    min-width: 1rem;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
+    transition: 0.1s;
+    max-width: 100%;
+  }
+
+  .icon {
+    max-width: 100%;
+    display: block;
+    margin-left: 0.4rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1rem 1.8rem;
+    width: 40%;
+  }
+  
+  .credential{
+    text-align: center;
+    margin-top: 0.3rem;
+  }
+
+  .grid {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 1rem;
+  }
+
+  .gridOne{
+    max-width: 100%;
+    color: #ffffff;
+    background: #709BEF;
+    height: 33vh;
+    border-radius: 0.6rem;
+  }
+
+  /* ADMIN */
+  .profileAdmin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1rem 1.8rem;
+    width: 40%;
+  }
+
+  .gridAdmin {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    justify-content: center;
+  }
+  
+  .gridOneAdmin{
+    max-width: 100%;
+    color: #ffffff;
+    background: #EFA570;
+    height: 33vh;
+    border-radius: 0.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .button {
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    background: #709BEF;
+    color: #ffffff;
+    min-width: 1rem;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
+    transition: 0.1s;
+    max-width: 100%;
+  }
+
+  .icon {
+    max-width: 100%;
+    display: block;
+    margin-left: 0.4rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1rem 1.8rem;
+    width: 40%;
+  }
+  
+  .credential{
+    text-align: center;
+    margin-top: 0.3rem;
+  }
+
+  .grid {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 1rem;
+  }
+
+  .gridOne{
+    max-width: 100%;
+    color: #ffffff;
+    background: #709BEF;
+    height: 33vh;
+    border-radius: 0.6rem;
+  }
+}

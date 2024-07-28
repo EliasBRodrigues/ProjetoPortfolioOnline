@@ -1,0 +1,138 @@
+@import "primeicons/primeicons.css";
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+section {
+    color: #ffffff;
+}
+
+h2{
+    margin-top: 1rem;
+    text-align: center;
+    color: #EFA570
+}
+
+.credential {
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.grade{
+    padding-left: 0.9rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5rem;
+    justify-content: start;
+    padding-left: 37%;
+    margin-top: 4%;
+    position: relative;
+    text-align: center;
+}
+
+
+.contAdmin{
+    height: 48rem;
+  }
+  
+  .buttonAdmin {
+    font-size: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    background: #EFA570;
+    color: #ffffff;
+    min-width: 8rem;
+    padding: 1.8rem 2.4rem;
+    box-sizing: border-box;
+    transition: 0.1s;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .iconAdmin {
+    max-width: 100%;
+    display: block;
+    margin-left: 0.4rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .profileAdmin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.4rem 1rem;
+    width: 10%;
+  }
+  
+  .credentialAdmin{
+    text-align: center;
+    margin-top: 0.4rem;
+  }
+  
+  .buttonAdmin:hover,
+  .buttonAdmin:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #EFA570, 0 0 0 4px #EFA570;
+  }
+  
+  .gridAdmin {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    justify-content: center;
+  }
+  
+  .gridOneAdmin{
+    max-width: 100%;
+    color: #ffffff;
+    background: #EFA570;
+    height: 20vh;
+    border-radius: 0.6rem;
+  }
+
+  
+.gridOne {
+    max-width: 100%;
+    color: #ffffff;
+    background: #709BEF;
+    height: 16vh;
+    border-radius: 0.6rem;
+}
+
+@media (max-width: 800px) {
+
+    .grade{
+        padding-left: 0.7rem;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5rem;
+        justify-content: start;
+        padding-left: 30rem;
+        margin-top: 4%;
+        position: relative;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 15rem;
+        padding-left: 6%;
+        margin-top: 4%;
+        text-align: center;
+    }
+
+    .grade{
+        padding-left: 0.8rem;
+    }
+   
+}

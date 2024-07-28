@@ -1,0 +1,214 @@
+/* BUTTON  */
+@import "primeicons/primeicons.css";
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+
+section {
+    color: #ffffff;
+}
+
+.cont{
+    height: 45rem;
+}
+
+.credential {
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    justify-content: start;
+    padding-left: 20%;
+    margin-top: 4%;
+    position: relative;
+}
+
+.hora {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 60%;
+    justify-content: end;
+    margin-top: 4%;
+}
+
+.gridOne {
+    max-width: 100%;
+    color: #ffffff;
+    background: #709BEF;
+    height: 16vh;
+    border-radius: 0.6rem;
+}
+
+
+.contAdmin{
+    height: 58rem;
+}
+
+.credentialAdmin {
+    text-align: center;
+    margin-top: 0rem;
+}
+
+
+.credentialPresenca{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-left: 20%;
+    display: flex;
+}
+
+.gridAdmin {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+    justify-content: start;
+    padding-left: 20%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.horaAdmin {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 60%;
+    justify-content: end;
+    margin-top: 0%;
+}
+
+.gridOneAdmin {
+    max-width: 100%;
+    color: #ffffff;
+    background: #EFA570;
+    height: 16vh;
+    border-radius: 0.6rem;
+}
+
+/* BUTTON  ADMIN*/
+.buttonAdmin {
+    display: block;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    background: #EFA570;
+    color: #ffffff;
+    min-width: 8rem;
+    padding: 0.8rem 1.2rem;
+    box-sizing: border-box;
+    transition: 0.1s;
+    width: 30%;
+    margin-top: 3rem;
+    margin-left: 35%;
+  }
+  
+  .buttonAdmin:hover,
+  .buttonAdmin:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #EFA570, 0 0 0 4px #EFA570;
+  }
+  
+  .buttonAdmin:disabled {
+    opacity: 0.5;
+    cursor: wait;
+  }
+  
+
+
+@media (max-width: 800px) {
+    .cont{
+        height: 80rem;
+    }
+
+    .grid {
+        padding-top: 1rem;
+        justify-content: center;
+        background: #ffffff;
+        border-radius: 1rem;
+        padding-right: 5rem;
+    }
+
+    .gridOne {
+        max-width: 100%;
+        color: #ffffff;
+        background: #709BEF;
+        height: 14vh;
+        border-radius: 0.6rem;
+        position: relative;
+    }
+
+    .hora {
+        border-radius: 0.6rem;
+        position: relative;
+        padding-left: 0.2rem;
+    }
+
+    /* ADMIN */
+
+    .credentialAdmin {
+        text-align: center;
+        margin-top: 0rem;
+    }
+    
+    
+    .credentialPresenca{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-left: 5%;
+        display: flex;
+    }
+    
+    .gradeAdmin {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .horaAdmin {
+        text-align: center;
+        margin-top: -1.3rem;
+        margin-left: -10%;
+        display: flex;
+    }
+    .gridAdmin {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 25px;
+        justify-content: start;
+        padding-left: 10%;
+        margin-top: 2%;
+        position: relative;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .cont{
+        height: 60rem;
+    }
+
+    .grid {
+        padding-top: 1rem;
+        justify-content: center;
+        background: #ffffff;
+        border-radius: 1rem;
+        padding-right: 5rem;
+    }
+
+    .gridOne {
+        max-width: 100%;
+        color: #ffffff;
+        background: #709BEF;
+        height: 14vh;
+        border-radius: 0.6rem;
+        position: relative;
+    }
+
+    .hora {
+        border-radius: 0.6rem;
+        position: relative;
+        padding-left: 0.2rem;
+    }
+}

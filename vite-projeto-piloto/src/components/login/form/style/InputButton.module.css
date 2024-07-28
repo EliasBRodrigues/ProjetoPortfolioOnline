@@ -1,0 +1,120 @@
+/* BUTTON  */
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 2rem;
+  background: #709BEF;
+  color: #ffffff;
+  min-width: 8rem;
+  padding: 0.8rem 1.2rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  width: 100%;
+  gap: 8px;
+}
+
+.button:hover,
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #709BEF, 0 0 0 4px #709BEF;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+.siga{
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.icon{
+  position: absolute;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  display: block;
+  max-width: 100%;
+}
+
+/* INPUT   */
+.wrapper {
+  margin-bottom: 1rem;
+}
+
+.input {
+  border: 1px solid #eee;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  background: #E1E4EA;
+  transition: 0.2s;
+  padding-inline: 4rem;
+}
+
+.input::placeholder{
+  color: #709BEF;
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  border-color: #709BEF;
+  background: white;
+  box-shadow: 0 0 0 3px #709BEF;
+}
+
+.label {
+  display: block;
+  font-size: 1rem;
+  line-height: 1;
+  padding-bottom: 0.5rem;
+}
+
+.error {
+  color: #f31;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.lost {
+  display: inline-block;
+  color: #709BEF;
+  font-weight: 550;
+  padding: 0.5rem 0;
+  line-height: 1;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+}
+
+.lost::after {
+  content: '';
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .toast{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .toast{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  }
+}
