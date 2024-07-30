@@ -15,7 +15,10 @@ O sistema permite que professores e alunos acessem e gerenciem informações rel
 - React: biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. 
 
 - H2-Console: Banco de dados relacional em memoria de código aberto, utilizado para armazenar e gerenciar os dados do sistema.
-- 
+```
+- Username: user / admin / aluno / prof
+- Password: user / admin / aluno / prof
+```
 ![Captura_de_tela_2024-07-29_212051-removebg-preview](https://github.com/user-attachments/assets/edb342b5-cc14-4139-80ac-2b5ec6bfa152)
 ![Captura_de_tela_2024-07-29_212445-removebg-preview](https://github.com/user-attachments/assets/b38a1b13-88ed-4c8c-92da-8750f5db95b2)
 ![Captura_de_tela_2024-07-29_212451-removebg-preview](https://github.com/user-attachments/assets/583be5ea-29a8-488a-8d8a-3dad684bfed2)
